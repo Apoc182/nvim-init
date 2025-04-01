@@ -1,7 +1,7 @@
 -- Load configuration files from lua/ directory
 require("keymaps")  -- loads lua/keymaps.lua
 require("options")  -- loads lua/options.lua
-
+require("plugins.nvim_command_helper")
 
 -- This is to allow local configs to be loaded
 vim.opt.exrc = true

@@ -23,3 +23,5 @@ vim.keymap.set("n", "<Up>", "gk")
 vim.keymap.set('n', '<leader>clip', '"+y', { noremap = true, silent = true })
 vim.keymap.set('v', '<leader>clip', '"+y', { noremap = true, silent = true })
 
+vim.keymap.set('n', '<leader>h', '<cmd>AskCommand<cr>', { noremap = true, silent = true })
+
