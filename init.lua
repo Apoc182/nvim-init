@@ -66,7 +66,13 @@ require("lazy").setup({
             -- Optional key mapping for toggling maximizer
             vim.api.nvim_set_keymap("n", "<Leader>m", ":MaximizerToggle<CR>", { noremap = true, silent = true })
         end
-    }
+    },
+    {
+      "numToStr/Comment.nvim",
+      config = function()
+        require("Comment").setup()
+      end,
+    },
 })
 
 -- LSP Configuration
